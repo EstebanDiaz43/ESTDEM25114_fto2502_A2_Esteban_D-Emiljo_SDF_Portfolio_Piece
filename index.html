@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <section>   
+    <container class="grid grid-cols-2 gap-4 m-6" >   
         <div class="img">
-
+            <img src="My photo.jpg" alt="My photo">
         </div>
 
         <div class="Aboutme">
@@ -54,8 +58,20 @@
         </div>
 
         <div class="connect">
-            
-        
+            <p>Let's chat! I'm ready to work on exciting projects.</p>
+            </br>
+            <div class="contactme">
+                <p>esteban.demiljo@email.com</p>
+                <div class="vertical-line"></div>
+                <p>+1 (123) 456-7890</p>
+                <div class="toggle">
+                <div class="vertical-line"></div>
+                <p>LinkedIn</p>
+                <div class="vertical-line"></div>
+                <p>GitHub</p>
+                </div>
+
+            </div>
         </div>
 
 
