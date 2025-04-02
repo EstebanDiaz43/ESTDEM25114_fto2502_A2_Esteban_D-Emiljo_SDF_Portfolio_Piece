@@ -1,3 +1,10 @@
+body {
+    background-image: url('bg-image.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
 /*Img lyout*/
 
 .img {
@@ -7,6 +14,8 @@
     border-radius: 24px;
     
 }
+
+/*about me layout*/
 
 .Aboutme {
     font-family: 'Poppins', sans-serif;
@@ -18,6 +27,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*proficiency layout*/
+
 .Proficiency {
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -27,6 +38,8 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/*skills layout*/
 
 .Skills {
     font-family: 'Poppins', sans-serif;
@@ -38,6 +51,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*projects layout*/
+
 .Projects {
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -47,6 +62,8 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/*education layout*/
 
 .Education {
     font-family: 'Poppins', sans-serif;
@@ -58,6 +75,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*tools layout*/
+
 .Tools {
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -68,6 +87,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/*experience layout*/
+
 .Experience {
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -77,6 +98,8 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/*connect layout*/
 
 .connect {
     font-family: 'Poppins', sans-serif;
@@ -110,7 +133,7 @@
     flex-direction: row;
 }
 
-
+/* Responsive Design */
 
 @media (max-width: 768px) {
     .toggle {
