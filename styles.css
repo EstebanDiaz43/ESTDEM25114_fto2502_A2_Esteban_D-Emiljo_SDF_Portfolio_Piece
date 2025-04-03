@@ -8,12 +8,16 @@ body {
 }
 
 h1 {
-    font-size: 16px !important;
+    font-weight: 600;
+    color: #000000;
+    font-size: 1rem !important;
     
 }
 
 h2 {
-    font-size: 14px !important;
+    font-weight: 500;
+    color: #000000;
+    font-size: 0.875rem !important;
     
 }
 
@@ -22,9 +26,9 @@ h2 {
     display: grid;
     font-family: 'Poppins';
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
+    margin: 18px 42px ;
     max-width: 1200px;
     font-size: 0.625rem;
 }
@@ -48,7 +52,7 @@ h2 {
     font-family: Poppins;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     padding: 19.5px 12px;
     border-radius: 10px;   
     
@@ -57,12 +61,13 @@ h2 {
 /*proficiency layout*/
 
 .Proficiency {
-    font-family: 'Poppins';
+    font-weight: 600;
+    color: #000000;
     word-spacing: 0.5rem;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0;
-    padding: 12px;
+    background-color: #ffffff;
+    padding: 0.75rem;
     border-radius: 10px;
     grid-column: span 2;
 }
@@ -76,8 +81,7 @@ h2 {
 }
 
 .progress-list {
-    list-style: none;
-    
+    list-style: none;    
     padding: 0;
     margin-bottom: 20px;
     line-height: 2.1;
@@ -136,10 +140,32 @@ h2 {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0;
-    padding: 2rem;
+    padding: 0.75rem;
+    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    grid-column: span 2;
+    
+}
+
+.skill-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; 
+    height: auto;
+    padding: 0.25rem 0.625rem; 
+    margin: 0.5rem; 
+    background-color: #E7F0EC;     
+    border-radius: 40px; 
+    font-size: 0.75rem; 
 }
 
 /*projects layout*/
@@ -148,7 +174,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -160,7 +186,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     padding: 2rem;
     border-radius: 10px;
     
