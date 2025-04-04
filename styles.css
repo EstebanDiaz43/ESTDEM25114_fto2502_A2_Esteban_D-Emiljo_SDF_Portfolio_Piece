@@ -5,6 +5,7 @@ body {
     background-position: center; 
     justify-content: space-between;
     
+    
 }
 
 h1 {
@@ -18,6 +19,12 @@ h2 {
     font-weight: 500;
     color: #000000;
     font-size: 0.875rem !important;
+    
+}
+
+h3 {
+    font-weight: 500; 
+    font-size: 0.75rem !important;
     
 }
 
@@ -137,7 +144,7 @@ h2 {
 /*skills layout*/
 
 .Skills {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     width: 100%;
     height: 100%;
     padding: 0.75rem;
@@ -171,14 +178,63 @@ h2 {
 /*projects layout*/
 
 .Projects {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     width: 100%;
     height: 100%;
+    padding: 0.75rem;
     background-color: #ffffff;
-    padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    grid-column: span 2;
+    
 }
+
+
+.project-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 8.75rem; 
+    height: auto;
+    padding: 0.75rem 0.625rem; 
+    margin: 0.5rem; 
+    background-color: #4A8B70;     
+    border-radius: 12px; 
+    color: #EBF9F2;
+}
+
+.project-top {
+    display: flex; 
+}
+
+.project-year {
+    color: #E7F0EC;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    margin-top: 0.75rem;
+
+}
+
+.project-hart {
+    color: #D76239;
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+.project-content {
+    margin-left: 0.625rem;
+    margin-bottom: 0.625rem;
+    line-height: 150%;
+}
+
+.contents-v1 {
+    font-weight: 700;
+    font-size: 0.625rem;
+    
+}
+
+
+
+
+
 
 /*education layout*/
 
