@@ -239,14 +239,91 @@ h3 {
 /*education layout*/
 
 .Education {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     width: 100%;
     height: 100%;
+    padding: 0.75rem;
     background-color: #ffffff;
-    padding: 2rem;
     border-radius: 10px;
+    grid-column: span 2;
     
 }
+
+.education-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; 
+    height: auto;
+    padding: 0.75rem 0.625rem; 
+    margin: 0.5rem; 
+    background-color: #4A8B70;     
+    border-radius: 12px; 
+    color: #EBF9F2;
+
+}
+
+.education-top {
+    display: flex;
+    width: 279px;
+
+    
+}
+
+.education-year {
+    color: #E7F0EC;
+    font-size: 0.5rem;
+
+}
+.education-most-recent {
+    display: block;
+    color: #ffffff;
+    font-size: 0.5rem;
+    font-weight: 500;
+    margin-left: 9rem;
+    border: #D76239 solid 1px;
+    background-color: #D76239;
+    border-radius: 24px;
+    width: auto;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    
+   
+}
+.education-content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.625rem;
+    font-size: 0.5rem;
+}
+
+.education-content {
+    margin-bottom: 0.625rem;
+    line-height: 150%;
+    width: 50%;
+    
+}
+
+.institute-v1 {
+    font-weight: 500;
+    font-size: 0.625rem;
+    
+}
+
+.education-vl {
+    border-right: 2px solid #ffffff;
+    height: 0.5rem;
+    width: 10px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+
+
+
+
+
+
 
 /*tools layout*/
 
