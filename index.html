@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <container class="main">   
         <div class="img">
-            <img src="My-photo.jpg" alt="My photo">
+            <img class="img1" src="My-photo.jpg" alt="My photo">
         </div>
 
         <div class="Aboutme">
             <h1>Esteban D'Emiljo</h1>
             <br/>
-            <p>I am passionate about life and would like to be a dedicated software developer who can make a difference in the digital world.</p>
+            <p>I am passionate about life and would like to be a dedicated software developer who can make a difference in the digital world.<span class="toggle2"> With hands-on experience in building dynamic and responsive web applications, I excel at transforming complex requirements into intuitive user interfaces. </span></p>
 
         </div>
         <div class="Proficiency">
@@ -62,10 +61,11 @@
         <div class="Projects">
             <h2>Projects</h2>
             <br/>
+            <div class="project-grid">
             <div class="project-flexbox1">
                 <div class="project-top">    
                     <div class="project-year1">
-                        <p>2025</p>
+                        <h3>2025</h3>
                     </div>
                     <div class="project-hart">
                         <p>&#9829;</p>              
@@ -73,7 +73,8 @@
                 </div>
 
                 <div class="project-content">
-                    <h3>Portfolio Website</h3>    
+                    <h3>Portfolio Website</h3>
+                    <span class="toggle2"><br/></span>    
                     <p><span class="contents-v1">Brief:</span>:</span></span> Developed a personal portfolio website to showcase projects and skills.</p>
                     
                 </div>
@@ -88,16 +89,19 @@
                     
                 </div>
             </div>
-                <!---  -->
             <div class="project-flexbox2">
                 <div class="project-top">    
                     <div class="project-year2">
-                        <p>2025</p>
+                        <h3>2025</h3>
                     </div>
+                    <span class="toggle2"><div class="project-hart">
+                        <p>&#9829;</p>              
+                    </div></span>
                 </div>
     
                 <div class="project-content">
-                    <h3>Portfolio Website</h3>    
+                    <h3>Portfolio Website</h3>
+                    <span class="toggle2"><br/></span>    
                     <p><span class="contents-v1">Brief:</span>:</span></span> Developed a personal portfolio website to showcase projects and skills.</p>
                         
                 </div>
@@ -116,12 +120,16 @@
             <div class="project-flexbox2">
                 <div class="project-top">    
                     <div class="project-year2">
-                        <p>2025</p>
-                    </div>                   
+                        <h3>2025</h3>
+                    </div>
+                    <span class="toggle2"><div class="project-hart">
+                        <p>&#9829;</p>              
+                    </div></span>                   
                 </div>
 
                 <div class="project-content">
-                    <h3>Portfolio Website</h3>    
+                    <h3>Portfolio Website</h3>
+                    <span class="toggle2"><br/></span>   
                     <p><span class="contents-v1">Brief:</span>:</span></span> Developed a personal portfolio website to showcase projects and skills.</p>
                     
                 </div>
@@ -140,12 +148,16 @@
             <div class="project-flexbox2">
                 <div class="project-top">    
                     <div class="project-year2">
-                        <p>2025</p>
+                        <h3>2025</h3>
                     </div>
+                    <span class="toggle2"><div class="project-hart">
+                        <p>&#9829;</p>              
+                    </div></span>
                 </div>
 
                 <div class="project-content">
-                    <h3>Portfolio Website</h3>    
+                    <h3>Portfolio Website</h3>
+                    <span class="toggle2"><br/></span>    
                     <p><span class="contents-v1">Brief:</span>:</span></span> Developed a personal portfolio website to showcase projects and skills.</p>
                     
                 </div>
@@ -159,8 +171,8 @@
                     <p><span class="contents-v1">Responsibilities:</span> Designed and implemented the website, ensured responsiveness and accessibility.</p>
                     
                 </div>
-            </div> 
-            
+            </div>
+            </div>             
         </div>
 
         
@@ -168,28 +180,47 @@
         <div class="Education">
             <h2>Education</h2>
             <br/>
-            <div class="education-flexbox">
-                <div class="education-top">    
-                    <div class="education-year">
-                        <p>Feb. 2025 - Current</p>
-                    </div>
-                    <div class="education-most-recent">
-                        <p>Most Recent</p>              
-                    </div>
+            
+            <div class="education-flexbox1">
+            <div class="education-top">    
+                 <div class="education-year">
+                    <p>Feb. 2025 - Current</p>
                 </div>
+                    <span class="toggle3"><div class="education-most-recent">
+                    <p>Most Recent</p>              
+                </div></span>
+                    
+            </div>
 
                 <div class="education-content-flex">
-                    <div class="education-content">
-                        <p><span class="institute-v1"> CodeSpace Academy</span></p>      
-                        <p>Software Development<span class="education-vl"></span> </p>
-                        <p>Full-time</p>
-                    </div>
+                <div class="education-content">
+                    <p><span class="institute-v1"> CodeSpace Academy</span></p>      
+                    <p>Software Development<span class="education-vl1"></span> </p>
+                    <p>Full-time</p>
+                </div>
+                    
 
                     <div class="education-content">    
                         <ul>
                             <li>Focused on React and JavaScript to build intuitive, dynamic web applications</li>
                             <li>Collaborated with peers on real-world personal projects, refining teamwork and coding best practices</li>
                             <li>Gained hands-on experience with cutting-edge web technologies and development tools</li>
+                        </ul>                       
+                    </div>                                         
+                </div>              
+            </div>
+            <div class="education-flexbox2">              
+                <div class="education-content-flex">
+                    <div class="education-content">
+                        <p>Jan. 2020 - Des. 2024</p>
+                        <br/>
+                        <p><span class="institute-v1">Langenhoven High School</span></p>      
+                        <p>Matric<span class="education-vl2"></span>Full-time </p>
+                    </div>
+
+                    <div class="education-content">    
+                        <ul>
+                            <li>Participated in school activities that build creativity, teamwork, communication and leadership.</li>
                         </ul>                       
                     </div>                                         
                 </div>              
@@ -205,7 +236,7 @@
             </div>  
             <br/>
             <div class="tools-flexbox">
-                <div class="tools-grid">
+                <div class="tools-grid1">
                     <div class="tools-content-title">
                         <p>Design</p>
                     </div>
@@ -214,7 +245,7 @@
                         <img class="icons" src="https://img.icons8.com/?size=100&id=17949&format=png&color=000000" alt="github-logo">               
                     </div>
                 </div> 
-                <div class="tools-grid">
+                <div class="tools-grid2">
                     <div class="tools-content-title">
                         <p>Software</p>
                     </div>
@@ -223,7 +254,7 @@
                         <img class="icons" src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="github-logo">
                     </div>
                 </div>
-                <div class="tools-grid">
+                <div class="tools-grid3">
                     <div class="tools-content-title">
                          <p>Languages</p>
                     </div>
@@ -248,7 +279,7 @@
             <div class="experience-flexbox">
                 <div class="experience-top">    
                     <div class="experience-year">
-                        <p>Feb. 2025 - Current</p>
+                    <p><span class="toggle3">2025 - Current</p></span>     
                     </div>
                     <div class="experience-most-recent">
                         <p>Most Recent</p>              
@@ -257,6 +288,7 @@
 
                 <div class="experience-content-flex">
                     <div class="experience-content">
+                        <p><span class="toggle1">2025 - Current</p></span> 
                         <p><span class="job-v1">Sport Coach</span></p>      
                         <p>Langenhove High School<span class="experience-vl"></span> </p>
                         <p>Full-time</p>
@@ -273,35 +305,22 @@
 
         </div>
 
-        <div class="connect">
+        <div class="Connect">
             <p>Let's chat! I'm ready to work on exciting projects.</p>
             </br>
             <div class="contactme">
-                <p>esteban.demiljo@email.com</p>
+                <p><a href="mailto:esteban.demiljo@gmail.com">esteban.demiljo@email.com</a></p>
                 <div class="vertical-line"></div>
                 <p>+27 73-706-8671</p>                
-                <div class="toggle">
+                <div class="toggle1">
                 <div class="vertical-line"></div>
-                <p>LinkedIn</p>
+                <p><a href="https://www.linkedin.com/in/esteban-demiljo-b91ba2351">LinkedIn</a></p>
                 <div class="vertical-line"></div>
-                <p>GitHub</p>
+                <p><a href="https://github.com/EstebanDiaz43">GitHub</a></p>
                 </div>
 
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
     </container>
 </body>
 </html>
